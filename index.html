@@ -273,7 +273,7 @@
 
       <div class="space-y-5">
         <div class="relative overflow-hidden rounded-[40px] border border-white/10 shadow-2xl">
-          <img src="https://via.placeholder.com/1200x400/1a1a1a/d85a30?text=Intervention+Mobile" alt="Mécanicien travaillant à domicile" class="h-96 w-full object-cover object-center" loading="lazy" />
+          <img src="assets/mecanicien-travaillant.jpg" alt="Mécanicien travaillant à domicile" class="h-96 w-full object-cover object-center" loading="lazy" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
           <div class="absolute bottom-6 left-6 right-6 text-white">
             <span class="inline-flex items-center gap-2 rounded-full bg-brand/90 px-3 py-1.5 text-xs uppercase tracking-[0.24em]">Intervention mobile</span>
@@ -283,14 +283,14 @@
         </div>
         <div class="grid gap-5 sm:grid-cols-2">
           <div class="overflow-hidden rounded-[32px] border border-white/10 bg-white shadow-xl shadow-black/5">
-            <img src="https://via.placeholder.com/900x400/1a1a1a/d85a30?text=Diagnostic" alt="Diagnostic moteur" class="h-56 w-full object-cover object-center" loading="lazy" />
+            <img src="assets/diagnostic-moteur.jpg" alt="Diagnostic moteur" class="h-56 w-full object-cover object-center" loading="lazy" />
             <div class="p-5">
               <h4 class="text-lg font-medium text-dark">Diagnostic complet</h4>
               <p class="mt-2 text-sm text-gray-500">On détecte rapidement la panne et on explique clairement chaque étape.</p>
             </div>
           </div>
           <div class="overflow-hidden rounded-[32px] border border-white/10 bg-white shadow-xl shadow-black/5">
-            <img src="https://via.placeholder.com/900x400/1a1a1a/d85a30?text=Service+Fiable" alt="Mécanicien vérifiant un véhicule" class="h-56 w-full object-cover object-center" loading="lazy" />
+            <img src="assets/mecanicien-travaillant.jpg" alt="Mécanicien vérifiant un véhicule" class="h-56 w-full object-cover object-center" loading="lazy" />
             <div class="p-5">
               <h4 class="text-lg font-medium text-dark">Service fiable</h4>
               <p class="mt-2 text-sm text-gray-500">Toujours des interventions soignées, claires et rapides, où que vous soyez.</p>
@@ -462,7 +462,7 @@
               </td>
             </tr>
           </template>
-        </tbody>
+        </tbody>e
       </table>
     </div>
 
@@ -634,12 +634,12 @@ function app() {
         },
 
         services: [
-          { id: 1, featured: true,  icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Vidange', name: 'Vidange + filtre', desc: 'Huile moteur, filtre à huile, vérification des niveaux.', price: '15 000 F', unit: 'CFA · pièces incluses' },
-          { id: 2, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><circle cx="12" cy="12" r="3" stroke-width="2"/><path stroke-linecap="round" stroke-width="2" d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Pneus', name: 'Changement de pneus', desc: 'Démontage, montage et équilibrage sur place.', price: '8 000 F', unit: 'CFA · par roue' },
-          { id: 3, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Batterie', name: 'Batterie & démarrage', desc: 'Diagnostic, remplacement batterie ou alternateur.', price: '12 000 F', unit: 'CFA · diagnostic offert' },
-          { id: 4, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke-width="2"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Freins', name: 'Freins & plaquettes', desc: 'Remplacement plaquettes, disques, liquide de frein.', price: '20 000 F', unit: 'CFA · 4 roues' },
-          { id: 5, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2 2 0 1119 12H2"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Clim', name: 'Climatisation', desc: 'Recharge gaz, nettoyage circuit, filtre habitacle.', price: '18 000 F', unit: 'CFA · recharge incluse' },
-          { id: 6, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>', image: 'https://via.placeholder.com/1000x400/1a1a1a/d85a30?text=Revision', name: 'Révision complète', desc: 'Check 30 points, rapport détaillé, devis gratuit.', price: '25 000 F', unit: 'CFA · tout compris' },
+          { id: 1, featured: true,  icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>', image: 'assets/revision.jpg', name: 'Vidange + filtre', desc: 'Huile moteur, filtre à huile, vérification des niveaux.', price: '15 000 F', unit: 'CFA · pièces incluses' },
+          { id: 2, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><circle cx="12" cy="12" r="3" stroke-width="2"/><path stroke-linecap="round" stroke-width="2" d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>', image: 'assets/changement-pneu.jpg', name: 'Changement de pneus', desc: 'Démontage, montage et équilibrage sur place.', price: '8 000 F', unit: 'CFA · par roue' },
+          { id: 3, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>', image: 'assets/batterie-demarrage.jpg', name: 'Batterie & démarrage', desc: 'Diagnostic, remplacement batterie ou alternateur.', price: '12 000 F', unit: 'CFA · diagnostic offert' },
+          { id: 4, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"/><circle cx="12" cy="12" r="5" stroke-width="2"/></svg>', image: 'assets/frein.jpg', name: 'Freins & plaquettes', desc: 'Remplacement plaquettes, disques, liquide de frein.', price: '20 000 F', unit: 'CFA · 4 roues' },
+          { id: 5, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2 2 0 1119 12H2"/></svg>', image: 'assets/climatisation.jpg', name: 'Climatisation', desc: 'Recharge gaz, nettoyage circuit, filtre habitacle.', price: '18 000 F', unit: 'CFA · recharge incluse' },
+          { id: 6, featured: false, icon: '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>', image: 'assets/revision.jpg', name: 'Révision complète', desc: 'Check 30 points, rapport détaillé, devis gratuit.', price: '25 000 F', unit: 'CFA · tout compris' },
         ],
 
         how: {
